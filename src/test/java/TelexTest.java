@@ -33,7 +33,7 @@ public class TelexTest {
         driver.manage().window().maximize();
 
         driver.navigate().to("https://telex.hu/");
-        Allure.addAttachment("Any text", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+        //Allure.addAttachment("Any text", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
     }
 }
 
